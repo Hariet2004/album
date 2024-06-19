@@ -47,9 +47,7 @@ const App = () => {
               color="textSecondary"
               paragraph
             >
-              Hello everyone. This is a photo album and I'm trying to make this
-              sentence as long as possible so we can see how it looks like on
-              the screen.
+              Welcome to our website, where we bring your most cherished moments to life. Explore our extensive collection of beautifully crafted photo albums, designed to preserve your memories with elegance and style. Whether you're celebrating a special occasion or simply want to relive the joy of everyday moments, our albums are the perfect way to keep your memories alive for years to come.
             </Typography>
             <div className={classes.buttons}>
               <Grid container spacing={2} justifyContent="center">
@@ -99,9 +97,14 @@ const App = () => {
           </Grid>
         </Container>
       </main>
-      
-
-    
+      <footer className={classes.footer}>
+        <Typography variant="h6" align="center" gutterBottom>
+          Footer
+        </Typography>
+        <Typography variant="subtitle1" align="center" color="textSecondary">
+          Done by Hariet!
+        </Typography>
+      </footer>
     </>
   );
 };
