@@ -1,34 +1,35 @@
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from "@mui/styles";
 
-const useStyles = makeStyles(() => ({
-  container: {
-    backgroundColor: '#f8f8f8',
-    padding: '64px 0 48px',
-  },
+const useStyles = makeStyles({
   icon: {
-    marginRight: '20px',
+    marginRight: "8px", // Adjust as needed
+  },
+  container: {
+    marginTop: "64px", // Adjust as needed
+    marginBottom: "64px", // Adjust as needed
   },
   buttons: {
-    marginTop: '40px',
+    marginTop: "32px", // Adjust as needed
   },
   cardGrid: {
-    padding: '20px 0',
+    paddingTop: "64px", // Adjust as needed
+    paddingBottom: "64px", // Adjust as needed
   },
   card: {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
+    height: "100%",
+    display: "flex",
+    flexDirection: "column",
   },
   cardMedia: {
-    paddingTop: '56.25%', // 16:9 aspect ratio
+    paddingTop: "56.25%", // 16:9 aspect ratio
   },
   cardContent: {
     flexGrow: 1,
   },
   footer: {
-    backgroundColor: '#f8f8f8',
-    padding: '48px',
+    backgroundColor: "#fff", // Adjust background color as needed
+    padding: "48px", // Adjust padding as needed
   },
-}));
+});
 
 export default useStyles;
